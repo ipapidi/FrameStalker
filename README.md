@@ -154,4 +154,4 @@ MIT License – see [LICENSE](LICENSE) for details.
 ## Authors 
 
 * **Ioli Papidi** — [@ipapidi](https://github.com/ipapidi)
-* **Alex F. A.** — [@F-A-Alex](https://github.com/F-A-Alex)
+* **Foteini A. Alexopoulou** — [@F-A-Alex](https://github.com/F-A-Alex)
