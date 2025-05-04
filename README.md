@@ -42,6 +42,18 @@ Unauthorized use against networks you do not own or have permission to assess is
 
 ## Instructions
 
+### Download Manually
+
+1. [Download the ZIP](https://github.com/ipapidi/FrameStalker/archive/refs/heads/main.zip)
+2. Extract the contents
+
+### Clone with Git 
+
+```bash
+git clone https://github.com/ipapidi/FrameStalker.git
+cd FrameStalker
+```
+
 ### Setup Steps
 
 1. Open a terminal inside the project folder.
