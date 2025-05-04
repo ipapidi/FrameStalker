@@ -137,9 +137,9 @@ FrameStalker/
 ├── ui/                    # GUI code and logging
 ├── logs/                  # Captured PCAPs and logs
 ├── assets/                # Icon and screenshots
-├── launch.sh              # GUI launcher script
+├── launch.sh              # Launcher script
 ├── frame_stalker_gui.py   # Main GUI entry point
-├── install.sh             # Optional installer
+├── install.sh             # Installer
 └── .gitignore
 ```
 
