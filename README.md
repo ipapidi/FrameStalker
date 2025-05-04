@@ -86,6 +86,8 @@ cd FrameStalker
 ./launch.sh --gui
 ```
 
+Or run the installed application from menu or desktop.
+
 ---
 
 ### Considerations
