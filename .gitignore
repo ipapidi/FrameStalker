@@ -1,0 +1,12 @@
+# Ignore logs and captures
+logs/*.pcap
+logs/*.log
+logs/*.txt
+
+# Ignore all .txt files project-wide
+*.txt
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
