@@ -1,0 +1,39 @@
+            Instructions
+Steps:
+    1. Open a terminal in the folder
+    2. Make the bash files executable if nessesary 
+        chmod +x install.sh
+        chmod +x launch.sh
+    3. Run:
+        ./install.sh
+        # This should create a desktop file in the menu you can run
+       
+    4. To run the CLI version from the terminal:
+        ./launch.sh
+        OR
+        to run the GUI version
+        ./launch.sh --gui
+
+Considerations:
+    1. A wifi adapter with monitor mode enabled is nessesary
+    2. If the passive deauth packet sniffer doesnt return anything run an active deauth in a seperate window
+    3. You need to select a pcap file save location before starting the passive or active deauth sniffer 
+    4. The "Stop" button must be pressed before a new tool is selected
+    5. If the location of the folder changes, the caches (.pyc) files found in the sniffers/ and ui/ folders should be deleted in order to run. 
+        To quickly find the afforemntioned files use this command: 
+            sudo find sniffers/ ui/ -name '__pycache__' -type d -exec rm -r {} +
+    6. This script was tested with Python 3.13.2
+    7. Please run all scripts or tools with root permissions/ sudo.
+
+
+Alternatively: #THIS HAS NOT BEEN IMPLEMENTED YET - WORK IN PROGRESS - PLEASE USE launch.sh OR THE INSTALLED APP 
+
+The Beacon and STA sniffer python files can be run separately through the terminal by providing the required interface as an argument ie. python3 beacon_sniffer wlan0
+
+The Deauth Sniffer requires a few more arguments:
+
+For passive sniffing: python3 deauth_sniffer.py passive interface /path/to/savepcapfile 
+For active attack: python3 deauth_sniffer.py active interface APMAC STAMAC channel count /path/to/savepcapfile 
+(where count is either 0 for continuous attack or the number of packets the user wishes to send)
+
+For the death sniffer the user can also follow an interactive terminal interface just by running the command - python3 deauth_sniffer.py 
