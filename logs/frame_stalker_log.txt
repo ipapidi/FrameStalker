@@ -1,9 +1,0 @@
-[+] Interface wlan1 set to channel 1
-[+] Launching deauth attack from a4:a4:a4:a4:a4:a4 ➔ a4:a4:a4:a4:a4:a4 on channel 1...
-[!] Continuous mode enabled. Press the Stop button to terminate.
-[01:04:00] Sending deauth packets... Total sent: 9
-[01:04:01] Sending deauth packets... Total sent: 18
-[01:04:02] Sending deauth packets... Total sent: 28
-[01:04:03] Sending deauth packets... Total sent: 37
-[!] Thread terminated.
-[+] Log saved to /home/ioli/Desktop/works_framest/logs/frame_stalker_log.txt
