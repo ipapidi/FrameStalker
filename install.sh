@@ -11,10 +11,6 @@ else
     echo "pip is already at the latest version ($CURRENT_PIP)."
 fi
 
-echo "Installing required packages - PyQt5 and scapy"
-
-# Install packages
-pip install PyQt5 scapy
 
 INSTALL_DIR="$HOME/.local/share/FrameStalker"
 DESKTOP_DIR="$HOME/.local/share/applications"
