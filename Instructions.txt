@@ -4,11 +4,13 @@ Steps:
     2. Make the bash files executable if nessesary 
         chmod +x install.sh
         chmod +x launch.sh
-    3. Run:
+    3. Run the following to install the necessary packages:
+        pip install PyQt5 scapy
+    4. Run:
         ./install.sh
         # This should create a desktop file in the menu you can run
-       
-    4. To run the CLI version from the terminal:
+
+    5. To run the CLI version from the terminal:
         ./launch.sh
         OR
         to run the GUI version
