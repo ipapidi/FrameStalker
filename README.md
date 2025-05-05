@@ -42,6 +42,12 @@ Unauthorized use against networks you do not own or have permission to assess is
 
 ## Instructions
 
+### Install Dependencies
+
+```bash
+pip install PyQt5 scapy
+```
+
 ### Download Manually
 
 1. [Download the ZIP](https://github.com/ipapidi/FrameStalker/archive/refs/heads/main.zip)
